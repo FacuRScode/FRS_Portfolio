@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="public/css/styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -434,24 +434,19 @@
                         </div>
                     </div>
                     <div class="right-contact">
-                        <form action="facundoromerososa@gmail.com" method="post" class="contact-form">
+                        <form action="https://formsubmit.co/facundoromerososa@gmail.com.com" method="post" class="contact-form">
                             <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
+                                <input id="formName" type="text" placeholder="YOUR NAME" required>
+                                <input id="email" type="email" required placeholder="YOUR EMAIL">
                             </div>
                             <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
+                                <input id="subject" type="text" placeholder="ENTER SUBJECT" required>
                             </div>
                             <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                                <textarea id="message" name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
                             </div>
                             <div class="submit-btn">
-                                <button type="submit">
-                                    <a>
-                                        <span class="btn-text">Enviar</span>
-                                        <span class="btn-icon"><i class="fa-solid fa-circle-envelope"></i></span>
-                                    </a>
-                                </button>
+                                <input type="submit" class="form-submit-button" value="Send Message">
                             </div>
                         </form>
                     </div>
@@ -480,6 +475,6 @@
     <div class="theme-btn">
         <i class="fas fa-adjust"></i>
     </div>
-    <script src="app.js"></script>
+    <script src="public/js/app.js"></script>
 </body>
 </html>
