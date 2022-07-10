@@ -299,9 +299,9 @@ section {
         border-left: 1px solid var(--color-grey-5);
         padding-left: 2rem;
         h5 {
-            padding: 1rem 0;
+            padding: 2rem 0;
             text-transform: uppercase;
-            font-size: 1.3rem;
+            font-size: 1.6rem;
             font-weight: 600;
             span {
                 color: var(--color-grey-2);
@@ -312,7 +312,7 @@ section {
         .skill-item {
             position: relative;
             padding-top: 1rem;
-            padding-left: 3rem;
+            padding-left: 1rem;
             border-bottom: 1px solid var(--color-grey-5);
             .skill-icon {
                 position: absolute;
@@ -328,7 +328,7 @@ section {
                 i { font-size: 1.3rem; }
             }
             .skill-experience {
-                padding: .2rem .6rem;
+                padding: .3rem .7rem;
                 background-color: var(--color-grey-5);
                 border-radius: 15px;
                 display: inline-block;
