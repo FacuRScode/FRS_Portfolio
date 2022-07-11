@@ -47,4 +47,3 @@ contactForm.addEventListener('submit', (e)=>{
         document.body.classList.toggle("light-mode");
     })
 })();
-
