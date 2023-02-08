@@ -1,8 +1,11 @@
 /*
 Selects all elements with class "control" using document.querySelectorAll(".control") and converts it to an array using the spread operator (...).
+
 Loops through each button in the array using forEach() and adds a "click" event listener to it.
 When a button is clicked, the function removes the "active-btn" class from the current active button and adds it to the clicked button.
+
 The same happens for the corresponding elements with class "active". The related element is selected based on the data-id attribute of the clicked button.
+
 Additionally, it adds a "click" event listener to the element with class "theme-btn". When the theme button is clicked, the function toggles the "light-mode" class on the <body> element.
 */
 
